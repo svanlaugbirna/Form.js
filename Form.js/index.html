@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+<script defer src="script.js"></script>
+</head>
+<body>
+    <div id="error" style="color: red;"></div>
+    <form id="form" action="/" method="GET"/>
+    <div>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text">
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email">
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password">
+    </div>
+    <div>
+        <label for="describe">Describe yourself in 3 words</label>
+        <input id="describe" name="text" type="text">
+    </div>
+    <div id="success" style="display: none;">
+        <p>Submission successful!</p>
+    </div>
+    <button type="submit">Submit</button>
+</body>
+</html>
